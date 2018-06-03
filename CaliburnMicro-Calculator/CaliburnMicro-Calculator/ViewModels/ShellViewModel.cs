@@ -9,7 +9,7 @@ namespace CaliburnMicro_Calculator.ViewModels
         }
         public void ShowCalculator()
         {
-            ActivateItem(new CalculatorViewModel(3, 4));
+            ActivateItem(new CalculatorViewModel());
         }
     }
 }

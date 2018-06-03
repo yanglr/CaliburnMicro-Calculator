@@ -7,6 +7,7 @@ namespace CaliburnMicro_Calculator.ViewModels
 {
     public class CalculatorViewModel: Screen, INotifyPropertyChanged
     {
+        #region properties
         private double _left;
         private double _right;
         private double _result;
@@ -40,13 +41,15 @@ namespace CaliburnMicro_Calculator.ViewModels
                 NotifyOfPropertyChange();
             }
         }
+        #endregion
 
-        public CalculatorViewModel(double left, double right)
+        #region ctor
+        public CalculatorViewModel()
         {
-            Left = left;
-            Right = right;
         }
+        #endregion
 
+        #region Public Methods
         public bool CanDivide(double left, double right)
         {
             return right != 0;
@@ -74,5 +77,6 @@ namespace CaliburnMicro_Calculator.ViewModels
         {
             Result = left * right;
         }
+        #endregion
     }
 }
