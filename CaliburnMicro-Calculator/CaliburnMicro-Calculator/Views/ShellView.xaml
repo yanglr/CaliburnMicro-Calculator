@@ -1,0 +1,16 @@
+﻿<Window x:Class="CaliburnMicro_Calculator.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaliburnMicro_Calculator.Views"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Title="Calculator" SizeToContent="Height" Width="240">
+
+    <Grid MinHeight="200">
+        <Button Content="Show Calculator" x:Name="ShowCalculator" Grid.Row="0"></Button>
+        <ContentControl x:Name="ActiveItem"></ContentControl>
+        <!--<ContentControl cal:View.Model="{Binding CalculatorViewModel}" x:Name="ActiveItem"></ContentControl>-->
+    </Grid>
+</Window>

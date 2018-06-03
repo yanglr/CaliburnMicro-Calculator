@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="CaliburnMicro_Calculator.Views.CalculatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:CaliburnMicro_Calculator.Views"
+             xmlns:cal="http://www.caliburnproject.org"
+             mc:Ignorable="d"
+             Width="240">
+
+    <StackPanel Background="Beige">
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10"
+                   Target="{Binding ElementName=left}">
+                Operand _1:
+            </Label>
+            <TextBox Margin="10"
+                     Width="72"
+                     x:Name="left"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10"
+                   Target="{Binding ElementName=right}">
+                Operand _2:
+            </Label>
+            <TextBox Margin="10"
+                     Width="72"
+                     x:Name="right"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Margin="10"
+                    x:Name="btnPlus" 
+                    cal:Message.Attach="[Event Click]=[Action Plus(left.Text, right.Text):result.Text]">
+                <Image Source="Images/op1.ICO"/>
+            </Button>
+
+            <Button Margin="10"
+                    x:Name="btnMinus" 
+                    cal:Message.Attach="[Event Click]=[Action Minus(left.Text, right.Text):result.Text]">
+                <Image Source="Images/op2.ICO"/>
+            </Button>
+
+            <Button Margin="10"
+                    x:Name="btnMultiply" 
+                    cal:Message.Attach="[Event Click]=[Action Multipy(left.Text, right.Text):result.Text]">
+                <Image Source="Images/op3.ICO"/>
+            </Button>
+
+            <Button Margin="10"
+                    x:Name="btnDivide" IsEnabled="{Binding Path=CanDivide}"
+                    cal:Message.Attach="[Event Click]=[Action Divide(left.Text, right.Text):result.Text]">
+                <Image Source="Images/op4.ICO"/>
+            </Button>
+
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10">
+                Answer:
+            </Label>
+            <TextBox Margin="10"
+                     Width="72"
+                     Text ="{Binding Path=Result, StringFormat={}{0:F4}, UpdateSourceTrigger=PropertyChanged}" IsReadOnly="True" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

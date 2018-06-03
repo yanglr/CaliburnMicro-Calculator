@@ -1,0 +1,17 @@
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\bin\Debug\CaliburnMicro-Calculator.exe.config
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\bin\Debug\CaliburnMicro-Calculator.exe
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\bin\Debug\CaliburnMicro-Calculator.pdb
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.csprojResolveAssemblyReference.cache
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\MainWindow.g.cs
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\App.g.cs
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator_MarkupCompile.cache
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator_MarkupCompile.lref
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\MainWindow.baml
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.g.resources
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro_Calculator.Properties.Resources.resources
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.csproj.GenerateResource.cache
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.csproj.CoreCompileInputs.cache
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.exe
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\CaliburnMicro-Calculator.pdb
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\Views\ShellView.g.cs
+D:\repos\vs\WPF\CaliburnMicro-Calculator\CaliburnMicro-Calculator\CaliburnMicro-Calculator\obj\Debug\GeneratedInternalTypeHelper.g.cs
