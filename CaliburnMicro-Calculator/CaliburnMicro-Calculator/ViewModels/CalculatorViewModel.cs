@@ -73,7 +73,7 @@ namespace CaliburnMicro_Calculator.ViewModels
             Result = left - right;
         }
 
-        public async void Multipy(double left, double right)
+        public async void Multiply(double left, double right)
         {
             Result = left * right;
         }
